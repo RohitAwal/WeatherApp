@@ -30,7 +30,7 @@ app.get("/weather", (req, res) => {
 
 app.get("*", (req, res) => {
     res.render("404", {
-        errorMsg: "Opps page not exist"
+        errorMsg: "Opps page not exist, clicks to go back"
     })
 });
 
